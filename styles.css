@@ -1,0 +1,163 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+header {
+	font-size: xx-large;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700 ;
+	color: orange;
+	text-shadow:1px 1px 2px black;
+}
+
+.spacer{
+	margin-top: 50px;
+}
+
+.spacer2{
+	margin-top: 20px;
+}
+
+.picture{
+	display: flex;
+	justify-content: center;
+}
+
+.name{
+	color: orange;
+	text-shadow:1px 1px 2px black;
+}
+
+.text{
+	color: orange;
+	font-family: "Open Sans", sans-serif;
+	text-shadow: 0px 0px 1px black ;
+}
+
+.contain{
+	display: flex;
+	justify-content: space-evenly;
+	height: 500px;
+
+}
+
+.vacay{
+	background-color: #ddd;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 45%;
+	border: thick double orange;
+}
+
+.double{
+	background-color: #ddd;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 45%;
+	border: thick double orange
+	
+}
+
+.hobby {
+  background: #ddd;
+	background-color: #ddd;
+	height: 45%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 12px;
+	border: solid thin crimson
+
+}
+
+.food{
+	background-color: #ddd;
+	height: 45%;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: solid thin crimson
+}
+
+h4{
+	text-align: center;
+}
+
+.marginleft{
+	margin-left: 20px;
+}
+
+.favs{
+	width: 85%;
+	padding-left: 15px;
+}
+
+.napd{
+	height: 20%;
+	padding-left: 53px;
+}
+
+.interests{
+	font-weight: bold;
+}
+
+.textbox{
+	border: solid thick orange;
+	padding-left: 10px;
+	box-shadow: 10px 5px 5px black;
+
+}
+
+.buttons{
+	background-color: yellow;
+	font-size: 35px;	
+}
+
+.butt{
+	display: flex;
+}
+
+.fam:hover{
+	transform: scaleX(-1);
+	
+}
+
+.fam{
+	border-radius:50%;
+	border: solid orange;
+	box-shadow: 10px 5px 5px black;
+}
